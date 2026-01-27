@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Online - Cafe</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    logo
+                </div>
+                <div class="menu_list">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="orderonline.html" class="active">Order online</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </header>
+            <article>
+                <div class="order_section">
+                    <h1>Order Online</h1>
+                    <p class="order_subtitle">Enjoy your favorite coffee from the comfort of your home</p>
+                    
+                    <div class="order_content">
+                        <div class="order_info">
+                            <h2>How to Order</h2>
+                            <ol>
+                                <li>Browse our menu and select your favorite items</li>
+                                <li>Add items to your cart</li>
+                                <li>Proceed to checkout</li>
+                                <li>Choose your delivery or pickup time</li>
+                                <li>Complete your payment</li>
+                                <li>Enjoy your order!</li>
+                            </ol>
+                            <h3>Delivery Options</h3>
+                            <ul>
+                                <li><strong>Delivery:</strong> 30-45 minutes (free for orders over $25)</li>
+                                <li><strong>Pickup:</strong> Ready in 15-20 minutes</li>
+                                <li><strong>Dine-in:</strong> Available at our location</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="order_form_container">
+                            <form class="order_form">
+                                <h2>Quick Order Form</h2>
+                                
+                                <div class="form_group">
+                                    <label for="name">Full Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="address">Delivery Address:</label>
+                                    <textarea id="address" name="address" rows="3" required></textarea>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="order_type">Order Type:</label>
+                                    <select id="order_type" name="order_type" required>
+                                        <option value="">Select an option</option>
+                                        <option value="delivery">Delivery</option>
+                                        <option value="pickup">Pickup</option>
+                                        <option value="dine_in">Dine-in</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="items">Items Ordered:</label>
+                                    <textarea id="items" name="items" rows="4" placeholder="List your items here..." required></textarea>
+                                </div>
+                                
+                                <div class="form_group">
+                                    <label for="special_requests">Special Requests:</label>
+                                    <textarea id="special_requests" name="special_requests" rows="3" placeholder="Any special requests or allergies?"></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit_btn">Place Order</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <footer>
+                <div class="footer_content">
+                    <p>&copy; 2025 Cafe. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
