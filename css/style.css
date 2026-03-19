@@ -4,6 +4,7 @@
 }
 body{
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: url("../images/bg.jpg");
 }
 .homeBg{
         background-image: url("../images/zarak-khan-69ilqMz0p1s-unsplash.jpg");
@@ -409,3 +410,117 @@ footer{
     color: #3E2723;
     text-decoration: none;
 }
+.add-to-cart{
+    padding: 12px 30px;
+    background-color: #3E2723;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top:20px;
+
+}
+.add-to-cart:hover{
+    background-color: #280d08;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+
+}
+
+/* Cart Styles */
+.cart_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    min-height: 50vh;
+}
+.cart_section h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #3E2723;
+    margin-bottom: 40px;
+}
+.cart_table_container {
+    overflow-x: auto;
+}
+.cart_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.cart_table th, .cart_table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.cart_table th {
+    background-color: #f9f9f9;
+    color: #3E2723;
+    font-weight: bold;
+}
+.cart_item_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cart_item_img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.qty_input {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+.remove_btn {
+    padding: 8px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.remove_btn:hover {
+    background-color: #c82333;
+}
+.cart_summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #3E2723;
+}
+.cart_total h3 {
+    color: #3E2723;
+    font-size: 1.5em;
+}
+.cart_total span {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.checkout_btn {
+    padding: 15px 30px;
+    background-color: #3E2723;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.checkout_btn:hover {
+    background-color: #280d08;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
